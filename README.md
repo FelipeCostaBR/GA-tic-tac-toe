@@ -2,7 +2,7 @@
 
 ### Overview
 
-##This is the first individually project from General assembly. 
+## This is the first individually project from General assembly. 
 making **tic tac toe** (knots and crosses).
 
 ---
@@ -10,17 +10,17 @@ making **tic tac toe** (knots and crosses).
 ### Technical Requirements
 
 * **Design logic for winning** & **visually display which player won**
-* Used JavaScript HTML and CSS 
+* Used **JavaScript HTML** and **CSS** 
 * **Deploed the game online** using GitHub
 
 ---
 
 ### requirements
 
-- ✅ flow diagram.
-- ✅ A working game, that can win, draw & lose.
-- ✅ A link to your hosted working game.
-- ✅ A git repository hosted on GitHub.
+- [ X] flow diagram.
+- [ X] A working game, that can win, draw & lose.
+- [ X] A link to your hosted working game.
+- [ X] A git repository hosted on GitHub.
 
 ---
 
