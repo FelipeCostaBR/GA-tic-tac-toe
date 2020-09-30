@@ -22,28 +22,68 @@
   align-items: center;
 }
 
+.end-game {
+  color: green;
+}
+
 .container {
   margin: 0 auto;
   display: block;
   justify-content: center;
   justify-items: center;
 }
+
+.container-header {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
 main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
-header {
-  font-size: xx-large;
+.header {
+  font-size: 3rem;
   text-align: center;
 }
 
 .player1-light,
-.player2-light {
+.player2-light,
+.btn-reset {
   visibility: hidden;
+  font-size: 2rem;
+  text-align: center;
+}
+.player-result {
+  text-align: center;
+  font-size: xx-large;
+  color: green;
 }
 
 .player1,
 .player2 {
-  font-size: x-large;
+  margin: 0 auto;
+  font-size: 2rem;
+  text-align: center;
+}
+.score,
+.player2-score-total,
+.player1-score-total {
+  font-size: 2rem;
+  text-align: center;
+}
+
+footer {
+  display: grid;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }

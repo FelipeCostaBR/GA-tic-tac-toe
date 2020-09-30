@@ -7,14 +7,18 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>NOT SURE TICK TAC TOE</header>
-     
+    <header class="header">NOT SURE TICK TAC TOE</header>
+    <div></div>
     <main>
       <section class="container">
+        <header class="container-header">
+          <p class="score">Score:</p>
+          <p class="player1-score-total">0</p>
+        </header>
         <p class="player1">Player 1</p>
-        <p class="player1-light">🚨</p>
-        <h1 class="player1-result"></h1>
+        <p class="player1-light blink_me">YOUR TURN 🚨</p>
       </section>
+
       <section class="game-board">
         <div data-value="0" class="box"></div>
         <div data-value="1" class="box"></div>
@@ -26,12 +30,20 @@
         <div data-value="7" class="box"></div>
         <div data-value="8" class="box"></div>
       </section>
+
       <section class="container">
+        <header class="container-header">
+          <p class="score">Score:</p>
+          <p class="player2-score-total">0</p>
+        </header>
         <p class="player2">Player 2</p>
-        <p class="player2-light">🚨</p>
-        <h1 class="player2-result"></h1>
+        <p class="player2-light blink_me">YOUR TURN🚨</p>
       </section>
     </main>
+    <footer>
+      <h1 class="player-result"></h1>
+      <button class="btn-reset">New Game</button>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
