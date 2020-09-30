@@ -17,10 +17,10 @@ making **tic tac toe** (knots and crosses).
 
 ### requirements
 
-- [ X] flow diagram.
-- [ X] A working game, that can win, draw & lose.
-- [ X] A link to your hosted working game.
-- [ X] A git repository hosted on GitHub.
+- [X] flow diagram.
+- [X] A working game, that can win, draw & lose.
+- [X] A link to your hosted working game.
+- [X] A git repository hosted on GitHub.
 
 ---
 
