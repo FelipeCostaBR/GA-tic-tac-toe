@@ -2,7 +2,7 @@
 
 ### Overview
 
-## This is the first individually project from General assembly. 
+## This is the first individually project from software engineer immersive. 
 making **tic tac toe** (knots and crosses).
 
 ---
