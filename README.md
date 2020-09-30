@@ -17,24 +17,22 @@ making **tic tac toe** (knots and crosses).
 
 ### requirements
 
-* flow diagram ✅
-* A **working game, that can win, draw & lose, built by you** ✅
-* A **link to your hosted working game** 
-* A **git repository hosted on GitHub** ✅
-
-
----
-
-### Bonus for 2.0 version
-
-* Keep track of multiple game rounds with a win counter
-* Allow game customizable options, time limits, board size, game rounds, name & profiles etc  
-* Allow players to customize their token (X, O, name, picture, avatar etc)
-* Get inventive with your styling - research CSS effects, animations to spiff things up
-* **Research** **LocalStorage** or **SessionStorage** to persist data locally to allow games to continue after page refresh or loss of internet connectivity
-* Use timers to display "waiting..." messages while users are waiting to be matched
-* **Research** web audio API and add sound effects to your game
-* Be creative! Bend the rules and give it a twist!
-
+- ✅ flow diagram.
+- ✅ A working game, that can win, draw & lose.
+- ✅ A link to your hosted working game.
+- ✅ A git repository hosted on GitHub.
 
 ---
+
+### Bonus  📌 
+Version 2.0 Features
+
+- [ ] Keep track of multiple game rounds with a win counter
+- [ ] Allow game customizable options, time limits, board size, game rounds, name & profiles etc  
+- [ ] Allow players to customize their token (X, O, name, picture, avatar etc)
+- [ ] Implement CSS effects, animations to spiff things up
+- [ ] **LocalStorage** or **SessionStorage** to persist data locally to allow games to continue after page refresh
+- [ ] Use timers to display "waiting..." messages while users are waiting to be matched
+- [ ] Implement web audio API and add sound effects to your game
+
+
