@@ -15,20 +15,21 @@
           <p class="score">Score:</p>
           <p class="player1-score-total">0</p>
         </header>
-        <p class="player1">Player 1</p>
+        <p class="player1"></p>
+        <p class="symbol">Symbol: <strong>X</strong></p>
         <p class="player1-light blink_me">YOUR TURN 🚨</p>
       </section>
 
       <section class="game-board">
-        <div data-value="0" class="box"></div>
-        <div data-value="1" class="box"></div>
-        <div data-value="2" class="box"></div>
-        <div data-value="3" class="box"></div>
-        <div data-value="4" class="box"></div>
-        <div data-value="5" class="box"></div>
-        <div data-value="6" class="box"></div>
-        <div data-value="7" class="box"></div>
-        <div data-value="8" class="box"></div>
+        <div data-tilt data-value="0" class="box"></div>
+        <div data-tilt data-value="1" class="box"></div>
+        <div data-tilt data-value="2" class="box"></div>
+        <div data-tilt data-value="3" class="box"></div>
+        <div data-tilt data-value="4" class="box"></div>
+        <div data-tilt data-value="5" class="box"></div>
+        <div data-tilt data-value="6" class="box"></div>
+        <div data-tilt data-value="7" class="box"></div>
+        <div data-tilt data-value="8" class="box"></div>
       </section>
 
       <section class="container">
@@ -36,14 +37,19 @@
           <p class="score">Score:</p>
           <p class="player2-score-total">0</p>
         </header>
-        <p class="player2">Player 2</p>
+        <p class="player2"></p>
+        <p class="symbol">Symbol: <strong>O</strong></p>
         <p class="player2-light blink_me">YOUR TURN🚨</p>
       </section>
     </main>
     <footer>
-      <h1 class="player-result"></h1>
-      <button class="btn-reset">New Game</button>
+      <h3 class="reset">RESET TO NEW GAME</h3>
     </footer>
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <!-- JS dependencies -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

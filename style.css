@@ -1,10 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+body {
+  color: #4d5761;
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(228, 241, 245, 0.863);
+}
+.symbol {
+  font-size: 2rem;
+  text-align: center;
+}
 .game-board {
   width: 600px;
   height: 600px;
   margin: 0 auto;
-  background-color: #34495e;
+  background-color: lightslategray;
   color: #fff;
-  border: 6px solid #2c3e50;
+  border: 6px solid #4d5761;
   border-radius: 10px;
 
   display: grid;
@@ -12,7 +23,8 @@
 }
 
 .box {
-  border: 6px solid #2c3e50;
+  border: 6px solid #4d5761;
+  background-color: #34495e;
   border-radius: 2px;
   font-family: Helvetica;
   font-weight: bold;
@@ -36,6 +48,7 @@
 .container-header {
   display: grid;
   grid-template-columns: 4fr 1fr;
+  margin-right: 1rem;
 }
 
 main {
@@ -73,17 +86,60 @@ main {
   font-size: 2rem;
   text-align: center;
 }
+.player2-score-total,
+.player1-score-total {
+  border: 1px solid #4d5761;
+}
+.game-board-size {
+  width: 420px;
+  height: 420px;
+  margin: 0 auto;
+}
+
+.reset {
+  cursor: pointer;
+  text-align: center;
+}
 
 footer {
   display: grid;
 }
 
 .blink_me {
-  animation: blinker 1s linear infinite;
+  animation: blinker 0.5s linear infinite;
+  color: red;
 }
 
 @keyframes blinker {
   50% {
     opacity: 0;
+  }
+}
+
+.flip-horizontal-bottom {
+  -webkit-animation: flip-horizontal-bottom 0.4s
+    cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+    both;
+}
+
+@-webkit-keyframes flip-horizontal-bottom {
+  0% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+  }
+  100% {
+    -webkit-transform: rotateX(-180deg);
+    transform: rotateX(-180deg);
+  }
+}
+@keyframes flip-horizontal-bottom {
+  0% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+  }
+  100% {
+    -webkit-transform: rotateX(-180deg);
+    transform: rotateX(-180deg);
   }
 }
