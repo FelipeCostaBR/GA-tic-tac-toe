@@ -5,6 +5,7 @@
 ## This is the first individually project from software engineer immersive. 
 making **tic tac toe** (knots and crosses).
 
+![](tick_tac.gif)
 ---
 
 ### Technical Requirements
@@ -28,10 +29,10 @@ making **tic tac toe** (knots and crosses).
 Version 2.0 Features
 
 - [X] Keep track of multiple game rounds with a win counter
-- [ ] Allow game customizable options, time limits, board size, game rounds, name & profiles etc  
+- [X] Allow game customizable options, time limits, board size, game rounds, name & profiles etc  
 - [ ] Allow players to customize their token (X, O, name, picture, avatar etc)
-- [ ] Implement CSS effects, animations to spiff things up
-- [ ] **LocalStorage** or **SessionStorage** to persist data locally to allow games to continue after page refresh
+- [X] Implement CSS effects, animations to spiff things up
+- [X] **LocalStorage** or **SessionStorage** to persist data locally to allow games to continue after page refresh
 - [ ] Use timers to display "waiting..." messages while users are waiting to be matched
 - [ ] Implement web audio API and add sound effects to your game
 
