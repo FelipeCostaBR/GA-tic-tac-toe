@@ -5,6 +5,9 @@
 ## This is the first individually project from software engineer immersive. 
 making **tic tac toe** (knots and crosses).
 
+
+Play with your friends ![HERE](https://felipecostabr.github.io/GA-tic-tac-toe/.)
+
 ![](tick_tac.gif)
 ---
 
