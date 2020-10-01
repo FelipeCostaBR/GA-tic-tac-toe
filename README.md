@@ -27,7 +27,7 @@ making **tic tac toe** (knots and crosses).
 ### Bonus  📌 
 Version 2.0 Features
 
-- [ ] Keep track of multiple game rounds with a win counter
+- [X] Keep track of multiple game rounds with a win counter
 - [ ] Allow game customizable options, time limits, board size, game rounds, name & profiles etc  
 - [ ] Allow players to customize their token (X, O, name, picture, avatar etc)
 - [ ] Implement CSS effects, animations to spiff things up
