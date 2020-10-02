@@ -10,8 +10,8 @@ body {
   text-align: center;
 }
 .game-board {
-  width: 300px;
-  height: 270px;
+  width: 600px;
+  height: 600px;
   margin: 0 auto;
   background-color: lightslategray;
   color: #fff;
@@ -91,8 +91,8 @@ main {
   border: 1px solid #4d5761;
 }
 .game-board-size {
-  width: 420px;
-  height: 420px;
+  width: 300px;
+  height: 270px;
   margin: 0 auto;
 }
 
